@@ -4,6 +4,14 @@ La construccion del header esta creada con distintos divs en un container genera
 El color de lo botones en hover esta especificado en una variable
 la sombra de los botones es del mismo color del boton rosado pero con transparencia
 
+MAIN
+
+reduccion de codigo compartiendo informacion de clases en css
+
+segun style-guide, font-size = 18px no cabe en el tamaño de la pantalla mobile de 375px
+
+en el tamaño de pantalla webside de 1440px funciona perfecto
+
 @MEDIA QUERY HEADER
 
 Modificador de font-zise para la font-copy y h1
