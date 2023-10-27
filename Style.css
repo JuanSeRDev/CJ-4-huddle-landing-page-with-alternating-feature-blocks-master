@@ -52,6 +52,11 @@ p {
     line-height: 25px;
 }
 
+picture {
+    display: flex;
+    justify-content: center;
+}
+
 .container-top {
     width: 90vw;
     display: flex;
@@ -212,8 +217,6 @@ H2 {
     background: var(--hover-big-bottons);
 }
 
-
-
 /* END MAIN */
 
 @media screen and (min-width:900px) {
@@ -276,7 +279,64 @@ H2 {
 
     .mockups {
         width: 50vw;
+
+        /* MEDIA QUERY MAIN */
+
+        
     }
+
+    /* MEDIAQUERY MAIN */
+
+    .card1, .card2, .card3 {
+        text-align: left;
+    }
+
+    .card1 {
+        flex-direction: row-reverse;
+    }
+
+    .card2 {
+        flex-direction: row;
+    }
+
+    .card1 .c-text {
+        display: flex;
+        flex-direction: column;
+        width: 1400px;
+        padding: 150px;
+    }
+
+    .c-text p {
+        width: 100%;
+    }
+
+    .img-fc {
+        padding: 40px;
+    }
+    .card2 .c-text {
+        padding: 80px;
+    }
+
+    .card3 {
+        flex-direction: row-reverse;
+    }
+
+    .img-yu {
+        padding: 20px;
+    }
+
+    .card3 .c-text {
+        display: flex;
+        flex-direction: column;
+        width: 1400px;
+        padding: 130px;
+    }
+
+    .card4 {
+        width: 600px;
+    }
+
+    
 }
 
 
