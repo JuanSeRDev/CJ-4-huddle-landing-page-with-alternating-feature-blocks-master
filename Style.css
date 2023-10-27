@@ -24,7 +24,7 @@
     --Very-Dark-Cyan: hsl(192, 100%, 9%);
     --Grayish-Blue: hsl(208, 11%, 55%);
 
-    --withe: white;
+    --withe: #ffffff;
 
     --hover-big-bottons: #fe9bdc;
 }
@@ -150,7 +150,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 40px 0;
+    margin: 40px 0 0;
 }
 
 H2 {
@@ -182,6 +182,10 @@ H2 {
     margin: 50px 0;
 }
 
+.card3 {
+    margin-bottom: 0;
+}
+
 .img-gt, .img-fc, .img-yu {
     width: 80%;
     margin: 30px 0;
@@ -194,6 +198,11 @@ H2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    top: 80px;
+    background: var(--withe);
 }
 .card4 h2 {
     width: 100vw;
@@ -218,6 +227,113 @@ H2 {
 }
 
 /* END MAIN */
+
+/* FOOTER  */
+
+footer {
+    background: var(--Very-Dark-Cyan);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer p {
+    color: var(--Very-Pale-Cyan);
+}
+
+.logo-footer {
+    margin-top: 120px;
+    width: 200px;
+}
+
+.logo-footer img {
+    width: 150px;
+}
+
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.footer-info {
+    padding: 20px 0;
+}
+
+.footer-location {
+    display: flex;
+    flex-direction: row;
+}
+
+.location {
+    width: 13px;
+    height: 18px;
+    margin-right: 27px;
+    margin-top: 10px;
+}
+
+.footer-phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px  0;
+}
+
+.phone {
+    width: 18px;
+    height: 18px;
+    margin-right: 20px;
+}
+
+.footer-email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.email {
+    width: 20px;
+    height: 16px;
+    margin-right: 18px;
+}
+
+.footer-aboutus p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.fontawesome {
+    width: 100%;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.fa-brands {
+    margin: 0 5px;
+    border: 1px solid var(--withe);
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 14px;
+    color: var(--withe);
+}
+
+.fa-brands:hover {
+    color: var(--Pink);
+    border: 1px solid var(--Pink);
+}
+
+.fa-facebook-f {
+    width: 38px;
+}
+
+.copy {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* END FOOTER */
 
 @media screen and (min-width:900px) {
     header {
