@@ -298,6 +298,11 @@ footer p {
     margin-right: 18px;
 }
 
+.footer-aboutus {
+    display: flex;
+    flex-direction: column;
+}
+
 .footer-aboutus p {
     margin: 20px 0;
     font-size: 18px;
@@ -452,6 +457,45 @@ footer p {
         width: 600px;
     }
 
+    /* END MEDIAQUERY MAIN */
+
+    /* FOOTER  */
+
+    .footer-info {
+        width: 450px;
+    }
+
+    .container-footer {
+        flex-direction: row;
+        width: 90vw;
+        justify-content: space-around;
+    }
+
+    .footer-aboutus {
+        flex-wrap: wrap;
+        width: 400PX;
+        height: 150px;
+        text-align: left;
+    }
+
+
+    .footer-aboutus p {
+        margin: 10px 0;
+    }
+    
+    .fontawesome {
+        width: 220px;
+        display: flex;
+    }
+
+    .copy {
+        display: flex;
+        justify-content: flex-end;
+        width: 90vw;
+    }
+
+
+    /* END FOOTER */
     
 }
 
